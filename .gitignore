@@ -1,7 +1,21 @@
+# Gizli ayarlar
 .env
 
-.DS_Store Thumbs.db   # işletim sistemi
+# İşletim sistemi
+.DS_Store
+Thumbs.db
 
-.gradle/ todo-be/build/ *.class *.log   #backend
+# Backend
+backend/.gradle/
+backend/build/
+*.class
+*.log
 
-.vscode/ .idea/ *.iml    #ide
+# Frontend
+frontend/node_modules/
+frontend/build/
+
+# IDE
+.vscode/
+.idea/
+*.iml
