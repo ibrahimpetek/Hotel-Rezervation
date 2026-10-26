@@ -50,10 +50,10 @@ public class Payment extends BaseEntity {
     private String provider;
 
     @Column(name = "provider_payment_id")
-    private String providerPaymentId;
+    private String providerPaymentId;       //ödeme sonunda iyzico tarafından bize verilen
 
     @Column(name = "provider_conversation_id")
-    private String providerConversationId;
+    private String providerConversationId;  //ödeme isteği gönderirken
 
     @Column(name = "paid_at")
     private LocalDateTime paidAt;   //ödeme onaylandı tarih saat
